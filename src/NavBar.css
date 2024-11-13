@@ -1,0 +1,22 @@
+/* NavBar.css */
+.Bar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 5rem;
+}
+
+.NavBarItem {
+    color: white;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
