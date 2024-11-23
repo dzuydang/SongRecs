@@ -1,23 +1,21 @@
 import React from 'react';
 import './NavBar.css'; // Import the CSS file
 
-function NavBar(){
-    return(
-        <div class="Bar">
-            <ul>
-                <div>
-                    <h1 class="logo">SongRecs</h1>
-                </div>
-                <div class="NavBarItem">
-                    <h1>Links</h1>
-                </div>
-                <div class="NavBarItem">
-                    <h1>Help</h1>
-                </div>
-                <div class="NavBarItem">
-                    <h1>Test</h1>
-                </div>
-            </ul>
+function NavBar() {
+    return (
+        <div className="Bar">
+            <div className="NavBarItem">
+                <h1 className="logo">Tune</h1>
+            </div>
+            <div className="NavBarItem">
+                <h2>Links</h2>
+            </div>
+            <div className="NavBarItem">
+                <h2>Help</h2>
+            </div>
+            <div className="NavBarItem">
+                <h2>Test</h2>
+            </div>
         </div>
     );
 }

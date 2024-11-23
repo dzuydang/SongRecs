@@ -1,0 +1,41 @@
+.BigText {
+    text-align: center;
+    
+}
+
+.colorChange {
+    font-weight: 500;
+    background: linear-gradient(90deg, #3fc532, #208d91, #3fc532); /* Gradient colors */
+    background-size: 300% 300%; /* Makes the gradient much larger than the text */
+    -webkit-background-clip: text; /* Clips the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
+    animation: gradientShift 3s infinite; /* Animate with infinite loop */
+}
+/*Gradient animation*/
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+.Text{
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+

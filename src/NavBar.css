@@ -1,22 +1,35 @@
 /* NavBar.css */
 .Bar {
-    background-color: #333;
-    padding: 10px;
+    display: flex;                /* Use Flexbox for alignment */
+    justify-content: left; /* Spread items evenly */
+    align-items: center;          /* Vertically align items */
+    padding: 10px 20px;           /* Add space inside the navbar */
+
+    color: white;                 /* White text color */
 }
 
 .logo {
-    color: white;
-    font-size: 5rem;
+    font-family:  "Inter", sans-serif; /* Use the imported font */
+    font-size: 30px;                  /* Make the logo stand out */
+    font-weight: 500;                 /* Bold weight */
+    color: #fff;                      /* Logo color */
+    margin-right: 20px;                       /* Remove default margin */
+    margin-left: 50px;
 }
 
-.NavBarItem {
-    color: white;
+.NavBarItem h2 {
+    color: rgb(61, 57, 57);
     margin-left: 20px;
+    margin-right: 20px;
     display: inline-block;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400; 
+    text-align: center;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
+
+
+
+
+
